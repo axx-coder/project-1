@@ -1,0 +1,314 @@
+.start{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10px;
+    
+
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    color:green;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.short{
+    text-align: center;
+    margin-top:70px;
+    color:white;
+    
+}
+button{
+    background-color:white;
+    padding: 15px 70px;
+    color:green;
+    border-radius: 12px;
+ 
+}
+/* Create two unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: -10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    border: 1px solid green;
+    border-left: none;
+  }
+  
+  .left {
+    width: 35%;
+    border-right: none;
+  }
+  
+  .right {
+    width: 63%;
+    
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .flex-container {
+    display: flex;
+    background-color:#2ab54f;
+    margin-top: 10px;
+    margin-right: 100px;
+  }
+  
+  .flex-container > div {
+    background-color: #2ab54f;
+    /* border-right: 1px solid white; */
+    background-color: transparent;
+    font-size: 5px;
+    margin: 10px;
+    padding: 10px;
+   
+    color: white;
+  }
+.HELLO{
+    margin-right: auto;
+    color: white;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+h1{
+    font-size:20px;
+}
+.fgk{
+    background-color:#2ab54f;
+    margin-right: -10px;
+    margin-left: -10px;
+    margin-top:-8px;
+}
+.aa{
+    border-right: 1px solid white; 
+}
+.column1 {
+    float: left;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    color:white;
+  }
+  
+  .left1, .right1 {
+    width: 30%;
+  }
+  
+  .middle1 {
+    width: 30%;
+  }
+  
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  .row1,li{
+    list-style: none;
+    padding-bottom: 10px;
+  }
+  .foot{
+      background-color: black;
+      margin-right: -10px;
+    margin-left: -10px;
+    
+  }
+  body {font-family: Arial, Helvetica, sans-serif;}
+
+form {
+  border: 3px solid #f1f1f1;
+  font-family: Arial;
+}
+
+
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+.container{
+  background:transparent;
+  border:none;
+}
+.GREEN{
+  color: #2ab54f;
+}
+.Copyr{
+  text-align: center;
+}
+.sp{
+  color:#0c9b53;
+}
+.image2{
+  width: 100%;
+  height: inherit;
+  margin-left: -15px;
+  padding-right: 100px;
+  padding-bottom: 12px;
+  padding-top:2px;
+}
+.cont{
+  display:flex;
+}
+.cont > div {
+  
+  margin: 10px;
+  
+  
+}
+.bobton2{
+  
+  background-color: #2ab54f;
+  color: white;
+  border-radius: 1px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.bobton1{
+  
+  background-color:white;
+  color:green;
+  border-radius: 1px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.up{
+  text-decoration: none;
+  color:white;
+  border: none;
+  font-size:15px;
+  background-color:transparent;
+}
+.stup{
+  background-image: url("https://thumbs.dreamstime.com/b/burger-french-fries-tomatoe-sauce-glass-juice-black-background-178289483.jpg") ;
+  padding:20px;
+  background-repeat:no-repeat;
+  background-image: center;
+  height: 500px;
+  margin-bottom: -50px;
+  
+}
+.Baap{
+  background:Black;
+}
+.box{
+  background-image: url("");
+  width: 100%;
+  height:px;
+  background-repeat: no-repeat;
+}
+.backimag{
+  background-image: url("https://images.pexels.com/photos/7219747/pexels-photo-7219747.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat:no-repeat;
+  width: 100%;
+  height:600x;
+  
+}
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  
+  line-height: 1.5;
+}
+
+/* global diclaration title-text class so that it cab be uesd in future */
+.title-text
+{
+  font-size:40px;
+  text-align:center;
+}
+.header
+{
+  min-height: 70vh;
+  background:url('https://ak.picdn.net/shutterstock/videos/1046913928/thumb/5.jpg') center/cover no-repeat;
+  margin-top:auto;
+
+}
+.buttoner{
+  margin-top: 20px;
+}
+.GET{
+  color:white;
+  font-size:50px;
+}
+.op{
+  border: 2px solid white;
+  border-style: dotted;
+  border-left: none;
+  border-right: none;
+  border-top:none
+}
+.bak{
+  font-family: 'Yellowtail', cursive;
+  font-weight:unset;
+  font-size:60px;
+  opacity: 0.8;
+}
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
